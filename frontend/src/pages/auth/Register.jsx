@@ -36,7 +36,8 @@ function Register() {
     formData.confirmPassword !== formData.password ||
     formData.confirmPassword == "" ||
     formData.password == "" ||
-    formData.email == "";
+    formData.email == "" ||
+	loding;
 
  if (isAuthenticated) return <Navigate to={`/dashboard/${user?.role}`} />;
 

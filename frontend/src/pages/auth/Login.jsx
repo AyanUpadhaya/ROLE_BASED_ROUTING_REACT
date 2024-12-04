@@ -29,7 +29,7 @@ function Login() {
     }
   };
 
-  let checkValidation = formData.password == "" || formData.email == "";
+  let checkValidation = formData.password == "" || formData.email == "" || loding;
 
   if (isAuthenticated) return <Navigate to={`/dashboard/${user?.role}`} />;
 
