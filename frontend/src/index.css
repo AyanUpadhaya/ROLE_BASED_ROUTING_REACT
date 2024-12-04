@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.layout {
+  min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-y-auto{
+  overflow-y: auto;
+}
+.overflow-y-scroll{
+  overflow-y:scroll ;
+}
+
+.calc-height{
+  height: calc(100%-50px);
+}
